@@ -168,17 +168,48 @@
 //     }
 // }
 
-const persona = {
-    nombre: "Yerinson",
-    edad: 17,
-    ciudad: bucaramanga,
-}
+// const persona = {
+//     nombre: "Yerinson",
+//     edad: 17,
+//     ciudad: bucaramanga,
+// }
 
-const {nombre: nombre2, edad: edad2, ciudad: ciudad2, username = "yerinson"} = persona;
+// const {nombre: nombre2, edad: edad2, ciudad: ciudad2, username = "yerinson"} = persona;
 
 
-// let a = persona.nombre;
-// let b = persona.edad;
-// let c = persona.ciudad;
+// // let a = persona.nombre;
+// // let b = persona.edad;
+// // let c = persona.ciudad;
 
-console.log (nombre2, edad2, ciudad2, username);
+// console.log (nombre2, edad2, ciudad2, username);
+
+// function suma(a, b, ...c){
+//     console.log(typeof a);
+//     console.log(typeof b);
+//     console.log(typeof c);
+
+//     return a + b + c;
+
+//     for (let i = 0, i <= c.length )
+
+// }
+
+// let resultado = suma( 'dos', 2, 9, 21, 5, 7,'cuatro', 3, 7, 34);
+// console.log(resultado)
+
+// const arraya = (1,2,3);
+// const arrayb = ("a", "b","c");
+
+// let palabra = "3453_vaca"
+// let regex = /^([0 9] {2,6}+$)/g;
+// // let regex = /0 9/i;
+
+// console.log (regex.test(palabra));
+// console.log (palabra.match(regex));
+
+// exportar
+
+const Pi = (3.1416);
+
+
+
